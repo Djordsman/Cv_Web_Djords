@@ -1,0 +1,353 @@
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-style: unset;
+    font-size: 25px;
+    
+}
+
+h4 {
+    color: rgb(0, 0, 12);
+    text-align: center;
+    font-size: 10px;
+}
+
+.cv_jcn {
+    background: #7703bb;
+}
+
+.cv_jcn {
+    border: none;
+    color: rgb(252, 249, 249);
+    padding: 10px;
+    margin: 10px;
+    font-size: 24px;
+    line-height: 15px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.nav-menu{
+    text-align: right;
+}
+
+.nav-menu li {
+    display: contents;
+    padding: 10px;  
+}
+
+.imagemap img {
+    border-radius: 200%;
+    height: 200px;
+    margin-top: 10px;
+    width: 200px; 
+    object-fit: cover;
+    background-position: left;
+}
+
+body {
+    font-family: sans-serif;
+    font-style: bold;
+    font-size: 17px;
+    line-height: 23px;
+    margin:1;
+    padding:0;
+    background-image: url(../imgs/tijolo-branco-da-textura-fundo-do-vetor-113486747.jpg);
+    background-attachment: fixed;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section {
+    font-weight: normal;
+}
+
+header {
+    text-align: center;
+    text-decoration-style: italic;
+    font-style: inherit;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    text-decoration-style: bold;
+}
+
+li {
+    text-align: center;
+}
+
+.btns {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hobbies {
+    background: #048eb1;
+}
+
+.hobbies {
+    border: none;
+    color: rgb(253, 253, 253);
+    padding: 10px;
+    margin: 10px;
+    font-size: 24px;
+    line-height: 15px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.hobbies:hover {
+    background: #ffffff;
+    color:#048eb1;
+    box-shadow: inset 0 0 0 3px #048eb1;
+}
+
+.contato {
+    background: #048eb1;
+}
+
+.contato:hover {
+    background: #ffffff;
+    color:#048eb1 ;
+    box-shadow: inset 0 0 0 3px #048eb1;
+}
+
+.contato {
+    border: none;
+    color: rgb(253, 253, 253);
+    padding: 10px;
+    margin: 10px;
+    font-size: 24px;
+    line-height: 15px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.dp {
+    border: none;
+    color: rgb(253, 253, 253);
+    padding: 20px;
+    margin: 10px;
+    font-size: 24px;
+    line-height: 24px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.dp {
+    background: #7703bb;
+    transform-style: preserve-3d;
+    border-radius: 10px;
+    box-sizing: border-box;   
+    
+}
+
+.dp:after {
+    top: -100%;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    background: rgb(37, 4, 226);
+    border-radius: 10px;
+    box-sizing: border-box;
+    content: 'Dados Pessoais';
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+}
+
+.dp:hover {
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%)
+}
+
+.Perfil {
+    border: none;
+    color: rgb(253, 253, 253);
+    padding: 20px;
+    margin: 10px;
+    font-size: 24px;
+    line-height: 24px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.Perfil {
+    background: #7703bb;
+    transform-style: preserve-3d;
+    border-radius: 10px;
+    box-sizing: border-box;   
+}
+
+.Perfil:after {
+    top: -100%;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: absolute;
+    background: rgb(37, 4, 226);
+    border-radius: 10px;
+    box-sizing: border-box;
+    content: 'Perfil';
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+}
+
+.Perfil:hover {
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%);
+}
+
+.dpc {
+    border: none;
+    color: rgb(253, 253, 253);
+    padding: 20px;
+    margin: 10px;
+    font-size: 24px;
+    line-height: 24px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.dpc {
+    background: #7703bb;
+    transform-style: preserve-3d;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.dpc:after {
+    top: -100%;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: absolute;
+    background: rgb(37, 4, 226);
+    border-radius: 10px;
+    box-sizing: border-box;
+    content: 'Dados Para Contato';
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+}
+
+.dpc:hover {
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%);
+}
+
+.fa {
+    border: none;
+    color: rgb(253, 253, 253);
+    padding: 20px;
+    margin: 10px;
+    font-size: 24px;
+    line-height: 24px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.fa {
+    background: #7703bb;
+    transform-style: preserve-3d;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.fa::after {
+    top: -100%;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: absolute;
+    background: rgb(37, 4, 226);
+    border-radius: 10px;
+    box-sizing: border-box;
+    content: 'Formação Acadêmica';
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+}
+
+.fa:hover {
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%);
+}
+
+.ep {
+    border: none;
+    color: rgb(253, 253, 253);
+    padding: 20px;
+    margin: 10px;
+    font-size: 24px;
+    line-height: 24px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.ep {
+    background: #7703bb;
+    transform-style: preserve-3d;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.ep:after {
+    top: -100%;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: absolute;
+    background: #2500f7;
+    border-radius: 10px;
+    box-sizing: border-box;
+    content: 'Experiência Profissional';
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+}
+
+.ep:hover {
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%);
+}
+
+footer {
+    background-color: rgb(0, 119, 255);
+    text-align: center;
+    padding: 0.010px;
+}
+
+footer p {
+    font-size: 20px;
+}
